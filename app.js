@@ -3,7 +3,7 @@ var express = require('express');
 
 var app = express();
 
-const port = process.env.PORT || 3001;
+const port = process.env.PORT || 3000;
 
 var dir = path.join(__dirname, 'public');
 
